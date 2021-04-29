@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <title>Mastermind</title>
+</head>
+<body>
+    <div class="contenu">
+        <div class="tableauEntier">
+            <div class="tableau"></div>
+            <div class="aide"></div>
+        </div>
+        <div class="autre">
+            <div class="code">
+                <div class="couleurSecrete" id="couleurSecrete1"></div>
+                <div class="couleurSecrete" id="couleurSecrete2"></div>
+                <div class="couleurSecrete" id="couleurSecrete3"></div>
+                <div class="couleurSecrete" id="couleurSecrete4"></div>
+            </div>
+            <div class="tableauCouleurs">
+                <div class="couleur" id="blue"></div>
+                <div class="couleur" id="green"></div>
+                <div class="couleur" id="red"></div>
+                <div class="couleur" id="yellow"></div>
+                <div class="couleur" id="orange"></div>
+                <div class="couleur" id="pink"></div>
+            </div>
+            <div class="couleurCourante"></div>
+            <div class="valider">Valider</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <p>Désolé, ton écran est trop petit pour jouer !</p>
+    </div>
+</body>
+</html>
